@@ -1,0 +1,15 @@
+{
+  "Media": {
+    "title": {
+      "romaji": "One Piece",
+      "english": null,
+      "native": "ワンピース",
+      "userPreferred": "One Piece"
+    },
+    "nextAiringEpisode": {
+      "airingAt": 1541291400,
+      "timeUntilAiring": 557907,
+      "episode": 860
+    }
+  }
+}
