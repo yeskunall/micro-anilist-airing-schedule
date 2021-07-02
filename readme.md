@@ -5,11 +5,11 @@
 
 ### Deploy
 
-#### From the [`Deno Deploy`](https://deno.com/deploy) console (_hit deploy below!_)
+#### From the [`Deno Deploy`](https://deno.com/deploy) console
 
 [![Deno Deploy](https://deno.com/deno-deploy-button.svg)](https://dash.deno.com/new?url=https://denopkg.com/yeskunall/deno-deploy-anilist-airing-schedule@master/mod.ts)
 
-### Test locally
+### Test locally (using [`deployctl`](https://github.com/denoland/deployctl))
 
 ```shell
 deployctl run --no-check --watch mod.ts
@@ -17,8 +17,9 @@ deployctl run --no-check --watch mod.ts
 
 ### Example response
 
-```json
-// Output of `curl http://localhost:8080/?id=120120 | jq`
+```sh
+curl http://localhost:8080/?id=120120 | jq
+
 {
   "data": {
     "Media": {
